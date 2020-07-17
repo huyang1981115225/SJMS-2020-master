@@ -1,0 +1,12 @@
+package jiegouxing.day06facade;
+
+public interface 质检局 {
+	void orgCodeCertificate();// 办理组织机构代码证
+}
+
+class 海淀区质检局 implements 质检局 {
+	@Override
+	public void orgCodeCertificate() {
+		System.out.println("海淀区质检局办理组织机构代码证...");
+	}
+}
